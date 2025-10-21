@@ -1,0 +1,33 @@
+{
+  "name": "blockchain-api",
+  "version": "1.0.0",
+  "description": "A Node.js Express API for interacting with Ethereum smart contracts and Chainlink price feeds",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ethereum", "web3", "blockchain", "chainlink", "api", "express", "cryptocurrency", "defi"],
+  "author": "Flavio Espinoza",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "web3": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavioespinoza/blockchain-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flavioespinoza/blockchain-api/issues"
+  },
+  "homepage": "https://github.com/flavioespinoza/blockchain-api#readme"
+}
