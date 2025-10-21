@@ -45,14 +45,17 @@ PORT=3000
 
 You'll need an Ethereum RPC endpoint to connect to the blockchain:
 
-**Option 1: Alchemy (Recommended)**
+**Option 1: Free RPC**
+1. https://eth.llamarpc.com
+
+**Option 2: Alchemy**
 1. Go to [alchemy.com](https://www.alchemy.com/)
 2. Sign up for a free account
 3. Create a new app for Ethereum Mainnet
 4. Copy your API key
 5. Your RPC URL will be: `https://eth-mainnet.g.alchemy.com/v2/YOUR-API-KEY`
 
-**Option 2: Infura**
+**Option 3: Infura**
 1. Go to [infura.io](https://infura.io/)
 2. Sign up for a free account
 3. Create a new project
